@@ -110,8 +110,8 @@ console.log(shapes);
 //The triangle should have a `base` of 33 and a `height` of 44.
 //Log out the updated shapes array.
 shapes.push({
-    base: 34,
-    height: 43
+    base: 33,
+    height: 44
 });
 console.log(shapes);
 

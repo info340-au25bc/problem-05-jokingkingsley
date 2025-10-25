@@ -10,13 +10,11 @@
 /* Create and log a variable `twelve` that is the result of passing 8 to your
    addFour() function. */
 let twelve = addFour(8);
-console.log(twelve);
    
 /* Create and log a variable `twelveString` that is the result of passing "8" 
    (a string) to your addFour() function. Consider what this tells you about how
   the function should be explained (e.g., in a comment). */
 let twelveString = addFour("8");
-console.log(twelveString);
 // Our function is type safe!
   
 
@@ -61,6 +59,7 @@ function fizzBuzz (x) {
       }
     }
   }
+  return result;
 }
    
 
