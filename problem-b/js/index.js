@@ -10,6 +10,7 @@
 /* Create and log a variable `twelve` that is the result of passing 8 to your
    addFour() function. */
 let twelve = addFour(8);
+console.log(twelve);
    
 /* Create and log a variable `twelveString` that is the result of passing "8" 
    (a string) to your addFour() function. Consider what this tells you about how
