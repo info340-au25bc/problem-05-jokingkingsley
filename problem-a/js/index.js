@@ -31,7 +31,7 @@ console.log(motto);
 //the old (which you had saved in a variable!). Log out this ratio as a 
 //percentage with two decimal places of precision (e.g., `"123.45%"`).
 //You can use the `.toFixed()` Number method to specify the precision. 
-console.log((mottoLength / motto.length * 100).toFixed(2) + "%");
+console.log((motto.length / mottoLength * 100).toFixed(2) + "%");
 
 
 /** Arrays **/
@@ -68,7 +68,7 @@ console.log(numbers[Math.floor(numbers.length / 2)]);
 //with properties:
 //  `x` (coordinate) of 30, `y` of 50, `width` of 100, `height` of 50
 //Log out the rectangle object
-let rect = {x: 30, y: 30, width: 100, height: 50};
+let rect = {x: 30, y: 50, width: 100, height: 50};
 console.log(rect);
 
 
@@ -110,8 +110,8 @@ console.log(shapes);
 //The triangle should have a `base` of 33 and a `height` of 44.
 //Log out the updated shapes array.
 shapes.push({
-    base: 33,
-    height: 44
+    base: 34,
+    height: 43;
 });
 console.log(shapes);
 
