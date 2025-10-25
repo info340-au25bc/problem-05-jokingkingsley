@@ -111,7 +111,7 @@ console.log(shapes);
 //Log out the updated shapes array.
 shapes.push({
     base: 34,
-    height: 43;
+    height: 43
 });
 console.log(shapes);
 
